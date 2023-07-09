@@ -15,6 +15,8 @@ Abschließend zeige ich euch wie man eine *Template Seite* erstellt.
 
 <details>
 <summary> 1. Software</summary>
+
+  
 1. XAMPP installieren
 
   
@@ -26,6 +28,15 @@ Abschließend zeige ich euch wie man eine *Template Seite* erstellt.
    
 ![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/2e33a0ca-715c-4249-9301-44a6a6c7a22e)
 
+---
+
+1. Jetbrains Toolbox installieren für IDE
+   https://www.jetbrains.com/de-de/fleet/download/#section=windows
+
+2. Fleet installieren
+   ![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/ab8ca506-e52c-470c-86df-35a29d94bb49)
+
+   
 
 </details>
 
