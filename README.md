@@ -36,6 +36,8 @@ Abschließend zeige ich euch wie man eine *Template Seite* erstellt.
    https://www.jetbrains.com/de-de/fleet/download/#section=windows
 
 2. Fleet installieren
+
+   
    ![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/ab8ca506-e52c-470c-86df-35a29d94bb49)
 
    
