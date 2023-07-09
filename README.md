@@ -21,7 +21,8 @@ Apache und MySQL starten
 
 localhost/phpmyadmin in Browser eingeben
 
-![Uploading grafik.png…]()
+![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/2e33a0ca-715c-4249-9301-44a6a6c7a22e)
+
 
 </details>
 
