@@ -52,35 +52,24 @@ INSERT INTO orders (`OrderID`,`OrderNumber`,`PersonID`) values
 (2, 2, 2),
 (3, 3, 3);
 ```
-<br>
 
 ### Select
 
 ```sql
 SELECT * FROM `orders` WHERE orderid = 1; 
 ```
-<br>
 
 ### Update
 
 ```sql
 UPDATE orders SET ordernumber = 420, personid = 69 WHERE OrderID = 1;
 ```
-<br>
 
 ### Delete row
 
 ```sql
 DELETE FROM orders WHERE OrderID = 1;
 ```
-<br>
-
-### Delete row
-
-```sql
-DELETE FROM orders WHERE OrderID = 1;
-```
-<br>
 
 ### Drop table
 
@@ -89,12 +78,7 @@ DROP TABLE orders;
 ```
 *`Drop Table` von hinten. Erst die Tabellen droppen die keinen `Foreign Key` in anderen Tabellen haben!*
 
-<br>
-
 ---
-
-<br>
-
 ### Erste Schritte der Webseite <br>
 
 1. Jetbrains Toolbox installieren für Website
