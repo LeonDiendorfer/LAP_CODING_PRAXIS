@@ -3,9 +3,10 @@ Ibo Haidars `CRUD Project`: https://gitlab.com/Ismail099/crud_template_project
 
 > **Eine eigene Ausarbeitung mit Doku wird noch folgen.**
 
+> Die Ausarbeitung der Theorie kann [hier](https://github.com/LeonDiendorfer/LAP_Coding_Theorie) gefunden werden
+
 <details>
   <summary>Repo für Theorie</summary>
-  https://github.com/LeonDiendorfer/LAP_Coding_Theorie
 </details>
 
 - `Git` - Um dieses Projekt und damit die Basis der Praxisprüfung zu klonen zur Not kann man den nötigen Code auch kopieren.
@@ -24,7 +25,7 @@ Abschließend zeige ich euch wie man eine *Template Seite* erstellt.
 - XAMPP installieren
     (Link im Software Folder)
 - Apache und MySQL starten
-- localhost/phpmyadmin in Browser eingeben
+- `localhost/phpmyadmin` in Browser eingeben
 - DB anlegen (Neu-DB Name eingeben- Anlegen)
 
 ![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/2e33a0ca-715c-4249-9301-44a6a6c7a22e)
