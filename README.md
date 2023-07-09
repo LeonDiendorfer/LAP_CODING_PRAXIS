@@ -26,11 +26,11 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 
 ```MySQL
 CREATE TABLE Orders (
-OrderID int NOT NULL,
-OrderNumber int NOT NULL,
-PersonID int,
-PRIMARY KEY (OrderID),
-FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+  OrderID int NOT NULL,
+  OrderNumber int NOT NULL,
+  PersonID int,
+  PRIMARY KEY (OrderID),
+  FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
 );
 ```
 
