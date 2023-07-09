@@ -49,6 +49,11 @@ INSERT INTO orders (`OrderID`,`OrderNumber`,`PersonID`) values
 (2, 2, 2),
 (3, 3, 3);
 ```
+### Select
+
+```sql
+SELECT * FROM `orders` WHERE orderid = 1; 
+```
 
 ---
 
