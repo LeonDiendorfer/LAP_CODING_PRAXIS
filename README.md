@@ -20,9 +20,7 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 - `XAMPP` installieren  **(Link im Software Folder)**
 - `Apache` und `MySQL` starten <br> ![XAMPP Start Bild](assets/xampp_start.png)
 - [PhpMyAdmin öffnen](http://localhost/phpmyadmin)
-- DB anlegen (Neu-DB Name eingeben- Anlegen)
-
-![alt text](assets/db_create.png)
+- DB anlegen (Neu-DB Name eingeben- Anlegen) <br> ![alt text](assets/db_create.png)
 
 - Tabellen laut ER Diagram anlegen
 
@@ -32,5 +30,4 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 **(Link im Software Folder)**
 
 
-2. Fleet installieren
-![alt text](assets/toolbox.png)
+2. Fleet installieren <br> ![alt text](assets/toolbox.png)
