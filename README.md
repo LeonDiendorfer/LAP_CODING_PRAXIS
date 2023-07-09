@@ -22,7 +22,7 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 - [PhpMyAdmin öffnen](http://localhost/phpmyadmin)
 - DB anlegen (Neu-DB Name eingeben- Anlegen)
 
-![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/2e33a0ca-715c-4249-9301-44a6a6c7a22e)
+![alt text](assets/db_create.png)
 
 - Tabellen laut ER Diagram anlegen
 
@@ -33,4 +33,4 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 
 
 2. Fleet installieren
-![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/ab8ca506-e52c-470c-86df-35a29d94bb49)
+![alt text](assets/toolbox.png)
