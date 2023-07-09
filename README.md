@@ -23,6 +23,7 @@ Abschließend zeige ich euch wie man eine *Template Seite* erstellt.
 3. localhost/phpmyadmin in Browser eingeben
 
 4. DB anlegen
+   
 ![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/2e33a0ca-715c-4249-9301-44a6a6c7a22e)
 
 
