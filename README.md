@@ -87,7 +87,14 @@ DROP TABLE orders;
 
 2. Fleet installieren <br> ![alt text](assets/toolbox.png)
 
-### dadad
+### Workspace auswählen
+<br> ![alt text](assets\workspace.png)
+
+`XAMPP` Folder auswählen.
+
+```
+D:\xampp\htdocs
+```
 
 ### ada
 
