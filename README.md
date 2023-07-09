@@ -31,6 +31,8 @@ Abschließend zeige ich euch wie man eine *Template Seite* erstellt.
 ---
 
 1. Jetbrains Toolbox installieren für IDE
+
+    (Geht ohne Account ;) )
    https://www.jetbrains.com/de-de/fleet/download/#section=windows
 
 2. Fleet installieren
