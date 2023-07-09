@@ -38,6 +38,9 @@ CREATE TABLE Orders (
 );
 ```
 
+<br> ![alt text](assets/phpmyadmin_sql.png)
+<br> ![alt text](assets/myadmin_erstelle_table.png)
+
 ---
 
 ### Erste Schritte der Webseite
