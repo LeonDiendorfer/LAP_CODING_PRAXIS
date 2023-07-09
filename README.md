@@ -24,7 +24,11 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 
 - Tabellen laut ER Diagram anlegen
 
-```MySQL
+---
+
+### Erstellen einer Tabelle
+
+```sql
 CREATE TABLE Orders (
   OrderID int NOT NULL,
   OrderNumber int NOT NULL,
