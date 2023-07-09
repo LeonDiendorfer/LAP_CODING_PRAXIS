@@ -15,6 +15,7 @@
 </details>
 
 <details>
-  <summary>PHP</summary>
+  <summary>Jetbrains Toolbox</summary>
   
+  https://www.jetbrains.com/de-de/fleet/download/#section=windows
 </details>
