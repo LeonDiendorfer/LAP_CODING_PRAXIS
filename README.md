@@ -39,6 +39,7 @@ CREATE TABLE Orders (
 ```
 
 <br> ![alt text](assets/phpmyadmin_sql.png)
+<br> Tabelle wurde erstellt, siehe nächster Screen
 <br> ![alt text](assets/myadmin_erstelle_table.png)
 
 ---
