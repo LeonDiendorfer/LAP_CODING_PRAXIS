@@ -1,5 +1,5 @@
 <details>
-  <summary>MySQL Workbench</summary>
+  <summary>MySQL Workbench 8.0.33 </summary>
   https://dev.mysql.com/downloads/workbench/
 </details>
 
