@@ -107,7 +107,36 @@ phpinfo();
 
 ?>
 ```
-Auf localhost sollte es nun in etwa so aussehen
+Auf localhost sollte es nun in etwa so aussehen:
 <br> ![alt text](assets/localhost.png)
 
-### dada
+
+### DB connections
+
+`connect.php` file erstellen
+
+*Wichtig dbname auf eigene DB anpassen*
+
+```php
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=titan_holo", $username, $password);
+  // set the PDO error mode to exception
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  echo "Connected successfully";
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
+}
+?>
+```
+
+Austesten:
+```php
+<?php
+include 'connect.php';
+?>
+```
