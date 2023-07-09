@@ -9,7 +9,7 @@ Ibo Haidars ``CRUD Project``: https://gitlab.com/Ismail099/crud_template_project
 </details>
 
 Für eine Datenbank benötigen wird ``mySQLWorkbench``.  
-Um sie danach mit der Website zu connecten benötigen wir ``XAMPP``.  
+Um sie danach mit der Website zu connecten benötigen wir ``XAMPP`` und ``VSCode``.  
 In den ersten Schritten gehen wir die *Installation* gemeinsam durch.   
 Abschließend zeige ich euch wie man eine *Template Seite* erstellt.  
 
