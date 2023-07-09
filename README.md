@@ -15,7 +15,7 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 
 ---
 
-## Erste Schritte
+### Erste Schritte der Datenbank
 
 - `XAMPP` installieren  **(Link im Software Folder)**
 - `Apache` und `MySQL` starten <br> ![XAMPP Start Bild](assets/xampp_start.png)
@@ -25,6 +25,8 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 - Tabellen laut ER Diagram anlegen
 
 ---
+
+### Erste Schritte der Webseite
 
 1. Jetbrains Toolbox installieren für Website
 **(Link im Software Folder)**
