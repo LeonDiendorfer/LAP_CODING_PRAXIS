@@ -55,6 +55,13 @@ INSERT INTO orders (`OrderID`,`OrderNumber`,`PersonID`) values
 SELECT * FROM `orders` WHERE orderid = 1; 
 ```
 
+
+### Update
+
+```sql
+UPDATE orders SET ordernumber = 420, personid = 69 WHERE OrderID = 1;
+```
+
 ---
 
 ### Erste Schritte der Webseite
