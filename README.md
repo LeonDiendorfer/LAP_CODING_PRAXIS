@@ -111,7 +111,9 @@ Auf localhost sollte es nun in etwa so aussehen:
 <br> ![alt text](assets/localhost.png)
 
 
-### DB connections
+### Files erstellen
+
+`index.php` File rüberkopieren(ist im GIT)
 
 `connect.php` file erstellen
 
@@ -125,31 +127,31 @@ $username = "root";
 $password = "";
 
 try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    die("Connection failed: " . $e->getMessage());
+  die("Connection failed: " . $e->getMessage());
 }
 ?>
 ```
 
-Austesten im `index.php`:
+`insert.php` File erstellen:
 ```php
 <?php
 require_once 'connect.php';
 
-try {
-    $stmt = $pdo->query("SELECT * FROM orders");
-    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    foreach ($result as $row) {
-        echo "ID: " . $row['OrderID'] . "<br>";
-        echo "OrderNumber: " . $row['OrderNumber'] . "<br>";
-        echo "PersonID: " . $row['PersonID'] . "<br>";
-        // Add more fields as per your table structure
-        echo "<br>";
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $OrderID = $_POST['OrderID'];
+    $OrderNumber = $_POST['OrderNumber'];
+    $PersonID = $_POST['PersonID'];
+
+    try {
+        $stmt = $pdo->prepare("INSERT INTO orders (OrderID, OrderNumber, PersonID) VALUES (?, ?, ?)");
+        $stmt->execute([$OrderID, $OrderNumber, $PersonID]);
+        echo "Data inserted successfully!";
+    } catch (PDOException $e) {
+        echo "Insertion failed: " . $e->getMessage();
     }
-} catch (PDOException $e) {
-    echo "Query failed: " . $e->getMessage();
 }
 ?>
 ```
