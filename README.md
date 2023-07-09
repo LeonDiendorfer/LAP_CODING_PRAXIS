@@ -37,6 +37,7 @@ CREATE TABLE Orders (
   FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
 );
 ```
+*FOREIGN KEY nur hinzufügen wenn man abhängige Tabellen hat.*
 
 <br> ![alt text](assets/phpmyadmin_sql.png)
 <br> Tabelle wurde erstellt, siehe nächster Screen
@@ -63,6 +64,12 @@ UPDATE orders SET ordernumber = 420, personid = 69 WHERE OrderID = 1;
 ```
 
 ---
+
+### Delete
+
+```sql
+DELETE FROM orders WHERE OrderID = 1;
+```
 
 ### Erste Schritte der Webseite
 
