@@ -42,6 +42,14 @@ CREATE TABLE Orders (
 <br> Tabelle wurde erstellt, siehe nächster Screen
 <br> ![alt text](assets/myadmin_erstelle_table.png)
 
+### Befüllen einer Tabelle
+
+```sql
+INSERT INTO orders (`OrderID`,`OrderNumber`,`PersonID`) values
+(2, 2, 2),
+(3, 3, 3);
+```
+
 ---
 
 ### Erste Schritte der Webseite
