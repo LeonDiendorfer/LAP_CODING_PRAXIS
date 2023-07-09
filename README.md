@@ -2,6 +2,8 @@
 Ibo Haidars `CRUD Project`: https://gitlab.com/Ismail099/crud_template_project
 
 > **Eine eigene Ausarbeitung mit Doku wird noch folgen.**
+
+
 > **Die Ausarbeitung der Theorie kann [hier](https://github.com/LeonDiendorfer/LAP_Coding_Theorie) gefunden werden**
 
 - `Git` - Um dieses Projekt und damit die Basis der Praxisprüfung zu klonen zur Not kann man den nötigen Code auch kopieren.
@@ -13,13 +15,10 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 
 ---
 
-<details>
-<summary> 1. Software</summary>
+- `XAMPP` installieren  **(Link im Software Folder)**
+- `Apache` und MySQL` starten
 
-  
-- XAMPP installieren
-    (Link im Software Folder)
-- Apache und MySQL starten
+
 - [PhpMyAdmin öffnen](http://localhost/phpmyadmin)
 - DB anlegen (Neu-DB Name eingeben- Anlegen)
 
@@ -30,19 +29,8 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 ---
 
 1. Jetbrains Toolbox installieren für Website
-(Link im Software Folder)
+**(Link im Software Folder)**
 
 
 2. Fleet installieren
-
-   
-   ![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/ab8ca506-e52c-470c-86df-35a29d94bb49)
-   
-</details>
-
-
-
-<details>
-<summary> 2. Template Site</summary>
-
-</details>
+![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/ab8ca506-e52c-470c-86df-35a29d94bb49)
