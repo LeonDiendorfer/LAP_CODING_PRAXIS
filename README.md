@@ -15,12 +15,14 @@ Abschließend zeige ich euch wie man eine *Template Seite* erstellt.
 
 <details>
 <summary> 1. Software</summary>
-XAMPP installieren
+1. XAMPP installieren
+
   
-Apache und MySQL starten  
+2. Apache und MySQL starten  
 
-localhost/phpmyadmin in Browser eingeben
+3. localhost/phpmyadmin in Browser eingeben
 
+4. DB anlegen
 ![grafik](https://github.com/LeonDiendorfer/LAP_CODING_PRAXIS/assets/77973255/2e33a0ca-715c-4249-9301-44a6a6c7a22e)
 
 
