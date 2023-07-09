@@ -24,6 +24,16 @@ Abschließend zeigen wir euch wie man eine *Template Seite* erstellt.
 
 - Tabellen laut ER Diagram anlegen
 
+```MySQL
+CREATE TABLE Orders (
+OrderID int NOT NULL,
+OrderNumber int NOT NULL,
+PersonID int,
+PRIMARY KEY (OrderID),
+FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+);
+```
+
 ---
 
 1. Jetbrains Toolbox installieren für Website
