@@ -96,6 +96,18 @@ DROP TABLE orders;
 D:\xampp\htdocs
 ```
 
-### ada
+Den kompletten htdocs Folder Inhalt löschen.
+
+### Testen
+
+New file `index.php` erstellen.
+```php
+<?php
+phpinfo();
+
+?>
+```
+Auf localhost sollte es nun in etwa so aussehen
+<br> ![alt text](assets/localhost.png)
 
 ### dada
