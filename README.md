@@ -15,6 +15,13 @@ Abschließend zeige ich euch wie man eine *Template Seite* erstellt.
 
 <details>
 <summary> 1. Software</summary>
+XAMPP installieren
+  
+Apache und MySQL starten  
+
+localhost/phpmyadmin in Browser eingeben
+
+![Uploading grafik.png…]()
 
 </details>
 
