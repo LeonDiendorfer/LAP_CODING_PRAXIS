@@ -37,13 +37,13 @@ CREATE TABLE Orders (
   FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
 );
 ```
-*`FOREIGN KEY` nur hinzufügen wenn man abhängige Tabellen hat.*
+*`FOREIGN KEY` nur hinzufügen wenn man abhängige Tabellen hat.* <br>
 *Erst die Tabellen erstellen die keine `Foreign Keys` haben.*
 
 <br> ![alt text](assets/phpmyadmin_sql.png)
 <br> Tabelle wurde erstellt, siehe nächster Screen
 <br> ![alt text](assets/myadmin_erstelle_table.png)
-
+<br>
 ### Befüllen einer Tabelle
 
 ```sql
@@ -51,34 +51,40 @@ INSERT INTO orders (`OrderID`,`OrderNumber`,`PersonID`) values
 (2, 2, 2),
 (3, 3, 3);
 ```
+<br>
 ### Select
 
 ```sql
 SELECT * FROM `orders` WHERE orderid = 1; 
 ```
-
-
+<br>
 ### Update
 
 ```sql
 UPDATE orders SET ordernumber = 420, personid = 69 WHERE OrderID = 1;
 ```
-
----
-
+<br>
 ### Delete row
 
 ```sql
 DELETE FROM orders WHERE OrderID = 1;
 ```
-
+<br>
 ### Delete row
 
 ```sql
 DELETE FROM orders WHERE OrderID = 1;
+```
+<br>
+### Drop table
+
+```sql
+DROP TABLE orders;
 ```
 *`Drop Table` von hinten. Erst die Tabellen droppen die keinen `Foreign Key` in anderen Tabellen haben!*
-
+<br>
+---
+<br>
 ### Erste Schritte der Webseite
 
 1. Jetbrains Toolbox installieren für Website
