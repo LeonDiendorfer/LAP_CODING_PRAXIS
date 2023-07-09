@@ -115,28 +115,41 @@ Auf localhost sollte es nun in etwa so aussehen:
 
 `connect.php` file erstellen
 
-*Wichtig dbname auf eigene DB anpassen*
+*Wichtig dbname auf eigene DB anpassen!*
 
 ```php
 <?php
-$servername = "localhost";
+$host = "localhost";
+$dbname = "titan_holo";
 $username = "root";
 $password = "";
 
 try {
-  $conn = new PDO("mysql:host=$servername;dbname=titan_holo", $username, $password);
-  // set the PDO error mode to exception
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  echo "Connected successfully";
-} catch(PDOException $e) {
-  echo "Connection failed: " . $e->getMessage();
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Connection failed: " . $e->getMessage());
 }
 ?>
 ```
 
-Austesten:
+Austesten im `index.php`:
 ```php
 <?php
-include 'connect.php';
+require_once 'connect.php';
+
+try {
+    $stmt = $pdo->query("SELECT * FROM orders");
+    $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    foreach ($result as $row) {
+        echo "ID: " . $row['OrderID'] . "<br>";
+        echo "OrderNumber: " . $row['OrderNumber'] . "<br>";
+        echo "PersonID: " . $row['PersonID'] . "<br>";
+        // Add more fields as per your table structure
+        echo "<br>";
+    }
+} catch (PDOException $e) {
+    echo "Query failed: " . $e->getMessage();
+}
 ?>
 ```
