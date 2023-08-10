@@ -1,7 +1,6 @@
 # LAP_CODING_PRAXIS
-Ibo Haidars `CRUD Project`: https://gitlab.com/Ismail099/crud_template_project
-
-> **Eine eigene Ausarbeitung mit Doku wird noch folgen.**
+> Ebenso eine englische Variante [hier](https://github.com/SenselessCoding/PDO). War als Backup gedacht falls ich einen Blackout bekomme, durch das üben aber nicht der Fall gewesen :)  <br>
+> Auf [diesem Account](https://github.com/SenselessCoding) ist sowohl Praxis als auch das Setup erklärt <br>
 
 
 > **Die Ausarbeitung der Theorie kann [hier](https://github.com/LeonDiendorfer/LAP_Coding_Theorie) gefunden werden**
